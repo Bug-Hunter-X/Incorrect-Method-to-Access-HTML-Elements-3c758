@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv">
+    <p>This paragraph is inside a div.</p>
+  </div>
+  <script>
+    //Incorrect way to access element
+    document.getElementByIdx("myDiv").innerHTML = "<p>This is a replacement paragraph</p>";
+  </script>
+</body>
+</html>
